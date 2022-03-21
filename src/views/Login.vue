@@ -44,7 +44,7 @@ export default {
             }else {
               this.address = ""
               console.log(response.data)
-              alert("登录失败！请重新输入地址，错误代码："+response.data.code+"，错误原因："+response.data.result)
+              alert("登录失败！错误原因："+response.data.result)
             }
           })
     },

@@ -41,7 +41,7 @@ export default {
         }else {
           console.log(this.address)
           this.address = ''
-          alert("注册失败！请重新输入，错误原因："+response.data.result)
+          alert(response.data.result)
         }
       })
     },
